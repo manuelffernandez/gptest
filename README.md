@@ -1,9 +1,9 @@
 # Title :rocket:
 
 ## What is about :question:
-An app made with ReactJS&MUI and Typescript for the Gentleman Programming. Este pryecto parte de la base de ser un test para una entrevista senior y la idea del mismo es usar clean architecture a la vez que usa dos tecnologias para manejar estados: redux y context. Si te interesa saber mas sobre los requisitos y fundamentos de este proyecto podes hacerlo [desde acá](https://www.youtube.com/watch?v=p9PAmqpCWgA&t=1550s). Support him by subscribing to his channel :).
+An app made with ReactJS&MUI and Typescript for the Gentleman Programming. This project is the resolution of a test for a senior interview and the idea of ​​it is to use clean architecture while using two technologies to manage states: redux and context. If you are interested in knowing more about the requirements and fundamentals of this project you can do it [from here](https://www.youtube.com/watch?v=p9PAmqpCWgA&t=1550s). Support him by subscribing to his channel :).
 
-Mas adelante comentaré otros detalles sobre la app dentro de este readme.
+Later I will comment other details about the app.
 
 ## Screenshot :calling:
 Coming soon...
