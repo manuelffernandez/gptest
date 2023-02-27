@@ -20,5 +20,6 @@
     "jsx": "react-jsx"
   },
   "include": ["src"],
+  "files": ["vite.config.ts"], // added to avoid "import { defineConfig } from 'vite';" error
   "references": [{ "path": "./tsconfig.node.json" }]
 }
