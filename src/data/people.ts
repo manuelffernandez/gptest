@@ -1,4 +1,6 @@
-export const People = [
+import { type Person } from '../interfaces';
+
+export const PEOPLE: Person[] = [
   {
     id: '1',
     name: 'Alan Bello',
@@ -6,7 +8,7 @@ export const People = [
     'category-image': 'manager.png',
     company: 'Planet of the Grapes',
     'company-image': 'grapes.png',
-    levelOfHappiness: '30',
+    levelOfHappiness: 30,
   },
   {
     id: '2',
@@ -15,7 +17,7 @@ export const People = [
     'category-image': 'manager.png',
     company: 'Lord of the Fries',
     'company-image': 'fries.png',
-    levelOfHappiness: '100',
+    levelOfHappiness: 100,
   },
   {
     id: '3',
@@ -24,7 +26,7 @@ export const People = [
     'category-image': 'manager.png',
     company: 'Hurry Curry',
     'company-image': 'curry.png',
-    levelOfHappiness: '50',
+    levelOfHappiness: 50,
   },
   {
     id: '4',
@@ -33,7 +35,7 @@ export const People = [
     'category-image': 'manager.png',
     company: 'Eggcellent Eats',
     'company-image': 'eats.png',
-    levelOfHappiness: '100',
+    levelOfHappiness: 100,
   },
   {
     id: '5',
@@ -42,7 +44,7 @@ export const People = [
     'category-image': 'manager.png',
     company: 'Thai Tanic',
     'company-image': 'tanic.png',
-    levelOfHappiness: '10',
+    levelOfHappiness: 10,
   },
   {
     id: '6',
@@ -51,7 +53,7 @@ export const People = [
     'category-image': 'manager.png',
     company: 'Wok This Way',
     'company-image': 'way.png',
-    levelOfHappiness: '97',
+    levelOfHappiness: 97,
   },
   {
     id: '7',
@@ -60,7 +62,7 @@ export const People = [
     'category-image': 'manager.png',
     company: 'Sam and Ella',
     'company-image': 'ella.png',
-    levelOfHappiness: '21',
+    levelOfHappiness: 21,
   },
   {
     id: '8',
@@ -69,7 +71,7 @@ export const People = [
     'category-image': 'manager.png',
     company: 'Mustard’s Last Stand',
     'company-image': 'stand.png',
-    levelOfHappiness: '10',
+    levelOfHappiness: 10,
   },
   {
     id: '9',
@@ -78,7 +80,7 @@ export const People = [
     'category-image': 'manager.png',
     company: 'Life of Pie',
     'company-image': 'pie.png',
-    levelOfHappiness: '10',
+    levelOfHappiness: 10,
   },
   {
     id: '10',
@@ -87,7 +89,7 @@ export const People = [
     'category-image': 'manager.png',
     company: 'Basic Kneads Pizza',
     'company-image': 'pizza.png',
-    levelOfHappiness: '55',
+    levelOfHappiness: 55,
   },
   {
     id: '11',
@@ -96,7 +98,7 @@ export const People = [
     'category-image': 'employee.png',
     company: 'Earth Wind And Flour',
     'company-image': 'flour.png',
-    levelOfHappiness: '56',
+    levelOfHappiness: 56,
   },
   {
     id: '12',
@@ -105,7 +107,7 @@ export const People = [
     'category-image': 'employee.png',
     company: '9021 Pho',
     'company-image': 'pho.png',
-    levelOfHappiness: '50',
+    levelOfHappiness: 50,
   },
   {
     id: '13',
@@ -114,7 +116,7 @@ export const People = [
     'category-image': 'employee.png',
     company: 'Sweet Cheezus',
     'company-image': 'cheezus.png',
-    levelOfHappiness: '82',
+    levelOfHappiness: 82,
   },
   {
     id: '14',
@@ -123,7 +125,7 @@ export const People = [
     'category-image': 'employee.png',
     company: 'Fishcoteque',
     'company-image': 'fishcoteque.png',
-    levelOfHappiness: '23',
+    levelOfHappiness: 23,
   },
   {
     id: '15',
@@ -132,7 +134,7 @@ export const People = [
     'category-image': 'employee.png',
     company: 'Grill Em All',
     'company-image': 'emall.png',
-    levelOfHappiness: '55',
+    levelOfHappiness: 55,
   },
   {
     id: '16',
@@ -141,7 +143,7 @@ export const People = [
     'category-image': 'employee.png',
     company: 'A Cut Above',
     'company-image': 'above.png',
-    levelOfHappiness: '50',
+    levelOfHappiness: 50,
   },
   {
     id: '17',
@@ -150,7 +152,7 @@ export const People = [
     'category-image': 'employee.png',
     company: 'Fro-ternity',
     'company-image': 'ternity.png',
-    levelOfHappiness: '45',
+    levelOfHappiness: 45,
   },
   {
     id: '18',
@@ -159,7 +161,7 @@ export const People = [
     'category-image': 'employee.png',
     company: 'Jack the Clipper',
     'company-image': 'clipper.png',
-    levelOfHappiness: '81',
+    levelOfHappiness: 81,
   },
   {
     id: '19',
@@ -168,7 +170,7 @@ export const People = [
     'category-image': 'employee.png',
     company: 'My Hair Lady',
     'company-image': 'lady.png',
-    levelOfHappiness: '35',
+    levelOfHappiness: 35,
   },
   {
     id: '20',
@@ -177,6 +179,6 @@ export const People = [
     'category-image': 'employee.png',
     company: 'The Director’s Cut',
     'company-image': 'cut.png',
-    levelOfHappiness: '56',
+    levelOfHappiness: 56,
   },
 ];
