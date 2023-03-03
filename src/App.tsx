@@ -1,12 +1,14 @@
 import { Navbar } from './components';
 import { Home } from './pages';
+import { store } from '@/redux/store';
+import { Provider } from 'react-redux';
 
 function App(): JSX.Element {
   return (
-    <div className='App'>
+    <Provider store={store}>
       <Navbar />
       <Home />
-    </div>
+    </Provider>
   );
 }
 
